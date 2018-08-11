@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Code is Working Fine CSS Problem -->
+    <title>Simple TODO Application</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div class="controls">
+            <h1 id="parent"> My Awesome TODO
+                <p id="child"></p>
+            </h1>
+            <input type="text" id="input"></input>
+            <br>
+
+            <button type="button" id="add">Add TODO</button>
+            <button type="button" id="remove">Remove done TODO</button>
+            <button type="button" id="removeE">Remove Everything</button>
+
+        </div>
+        <ul id="list">
+            <li class="mycheck">
+                <input type="checkbox" id="check">
+                <label>Go to Walk</label>
+            </li>
+
+            <li class="mycheck">
+                <input type="checkbox" id="check" checked>
+                <label>Study online</label>
+            </li>
+
+            <li class="mycheck">
+                <input type="checkbox" id="check" checked>
+                <label>Have Short Nap</label>
+            </li>
+
+            <li class="mycheck">
+                <input type="checkbox" id="check" checked>
+                <label>Go to Gym</label>
+            </li>
+        </ul>
+
+    </div>
+    <!-- jQuery library -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     Popper JS -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script> -->--> -->
+    <script src="todo.js"></script>
+</body>
+
+</html>
