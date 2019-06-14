@@ -3,7 +3,7 @@
 <div>
 <br> 
 
->Its a Todo App in Javascript
+>Its a Todo App in Javascript developed at http://asingh1248.000webhostapp.com/ for use
 </div>
 <ul>
 <li>One can Enter his Todo List</li>
@@ -26,3 +26,7 @@
 ```sh
     $ git clone https://github.com/Asingh1248/MyTodoApp.git
 ```
+```sh
+    link http://asingh1248.000webhostapp.com/
+````
+-----------------------------------------
