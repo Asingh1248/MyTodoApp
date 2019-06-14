@@ -22,7 +22,7 @@
 -----------------------------------
 ### Installation
 
-*Clone the Project
+* Clone the Project
 ```sh
-    $ git clone
+    $ git clone https://github.com/Asingh1248/MyTodoApp.git
 ```
